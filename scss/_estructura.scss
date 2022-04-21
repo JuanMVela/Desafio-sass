@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    color: black;
+    background-image: linear-gradient(to top, #370510, #62021a, #90001f, #be001e, #eb1212);
+    padding: 25px;   
+}
+
+.logo{
+    width: 80px;    
+       
+}
+
+main{
+    color: $color_textomain;
+    background-image: $color_fondo;
+    padding: 50px;
+}
+
+.img{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.bordesR{
+    border-radius: 20px;
+    border: 2px solid rgba(255, 0, 0, 0.541);
+}
+
